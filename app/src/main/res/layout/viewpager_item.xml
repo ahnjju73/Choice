@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/second_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/first_choice"
+        android:layout_marginEnd="47dp"
+        android:text="RadioButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="47dp"
+        />
+
+    <RadioButton
+        android:id="@+id/first_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="210dp"
+        android:text="RadioButton" />
+
+    <RadioButton
+        android:id="@+id/third_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/first_choice"
+        android:layout_marginBottom="12dp"
+        android:text="RadioButton"
+        android:layout_alignLeft="@+id/first_choice" />
+
+    <RadioButton
+        android:id="@+id/fourth_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/second_choice"
+        android:layout_alignStart="@+id/second_choice"
+        android:layout_alignTop="@+id/third_choice"
+        android:text="RadioButton" />
+
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/first_img"/>
+
+
+    <ImageView
+        android:id="@+id/second_img"
+        android:layout_width="192dp"
+        android:layout_height="256dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="256dp"
+        android:layout_below="@+id/first_img"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/third_img"
+        />
+
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="256dp"
+        android:layout_alignRight="@id/third_img"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/second_img"
+        android:id="@+id/fourth_img"
+        />
+
+
+
+</RelativeLayout>
